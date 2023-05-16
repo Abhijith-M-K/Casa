@@ -13,10 +13,11 @@ function LoginCaurosel() {
       </Carousel.Item>
       <Carousel.Item>
         {/* <img className="d-block w-100" src={Bg} alt="Second slide" /> */}
-        <img
+        {/* <img
           className="d-block w-100"
           src="https://images.unsplash.com/photo-1566888596782-c7f41cc184c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80"
-        />
+        /> */}
+        <img className="d-block w-100" src={Bg} alt="First slide" />
 
         <Carousel.Caption>
           <h3>Second slide label</h3>
