@@ -3,6 +3,7 @@ import "./login.css";
 import Logo from "../../img/cg-logo.png";
 import LoginCaurosel from "../../components/loginCaurosel/loginCaurosel";
 import { CardGroup, Card } from "react-bootstrap";
+import { BsEyeSlash } from "react-icons/bs";
 
 const Login = () => {
   return (
@@ -41,9 +42,9 @@ const Login = () => {
                         id="exampleInputEmail1"
                       />
                     </div>
-                    <div className="form-group pb-3">
+                    <div className="form-group relative">
                       <label
-                        className="d-flex align-items-center fs-6 "
+                        className="d-flex align-items-center fs-6  "
                         htmlFor=""
                       >
                         Password
@@ -51,9 +52,12 @@ const Login = () => {
 
                       <input
                         type="password"
-                        className="form-control fa-solid fa-eye"
+                        className="form-control"
                         id="exampleInputPassword1"
                       />
+                      <div className="eye">
+                        <BsEyeSlash className="eye-icon" />
+                      </div>
                     </div>
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="d-flex align-items-center">
@@ -63,17 +67,17 @@ const Login = () => {
                       </div>
                     </div>
                     <div className="sign-button">
-                      <button
-                        type="submit"
-                        className="btn btn-warning text-light  font-weight-bold mt-2"
-                      >
+                      <button type="submit" className="submit-button ">
                         Sign In
                       </button>
                     </div>
                   </form>
 
-                  <div class="new-user pt-4 text-center">
-                    A new User? <a href="#">Sign Up</a>
+                  <div class="new-user">
+                    A new User?{" "}
+                    <a className="new-signin" href="#">
+                      Sign Up
+                    </a>
                   </div>
                 </div>
               </div>

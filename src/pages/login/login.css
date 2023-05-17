@@ -68,6 +68,7 @@ button {
 .login-form {
   max-width: 477px;
   margin: 0 auto;
+  margin-top: 71px;
 }
 
 .login-head {
@@ -76,6 +77,7 @@ button {
   /* font-weight: 700; */
   min-width: 477px;
   margin: 0 auto;
+  /* margin-top: 90px; */
 }
 .sign-button > button {
   /* margin-right: 168px; */
@@ -83,7 +85,8 @@ button {
   width: 100%;
 }
 .new-user {
-  margin-right: 190px;
+  margin-left: 175px;
+  margin-top: 23px;
 }
 .login-wrapper .card-group .card .text-head {
   font-family: "Poppins", sans-serif;
@@ -95,7 +98,13 @@ button {
   color: #fcbb55;
 }
 .login-wrapper .card-group .card .text-head .text-secondary {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
+  line-height: 30px;
+
+  color: rgba(48, 48, 48, 0.43);
 }
 .text-label {
   font-family: "Poppins", sans-serif;
@@ -104,3 +113,39 @@ button {
   font-size: 20px;
   line-height: 23px;
 }
+.submit-button {
+  background: #fcbb55;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+.submit-button:hover{
+  background-color:#f0a836 ;
+}
+.forgot {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: #4299e1;
+}
+.new-signin {
+  color: #4299e1;
+  text-decoration: none;
+}
+.form-group{
+  position: relative;
+}
+.eye-icon{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
