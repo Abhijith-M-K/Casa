@@ -15,7 +15,7 @@ const Login = () => {
           </Card.Body>
         </Card>
         <Card className="login-form-wrapper">
-          <Card.Body className="p-0">
+          <Card.Body>
             <div className="logo d-flex justify-content-end">
               <img className="justify-content-end" src={Logo} alt="" />
             </div>

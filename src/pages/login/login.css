@@ -15,6 +15,8 @@ h3 {
 }
 .login-wrapper .card-group .card {
   max-height: 100vh;
+  border: 0;
+  border-radius: 0;
 }
 .login-wrapper .card-group .card.login-carousal {
   overflow: hidden;
@@ -26,9 +28,6 @@ h3 {
   height: calc(100% - 185px);
   display: flex;
   align-items: center;
-}
-.logo {
-  margin: 35px 35px 0 0;
 }
 .form-style input {
   height: 50px;
@@ -72,10 +71,8 @@ button {
 }
 
 .login-head {
-  /* margin-top: 146px; */
-  /* margin-left: 168px; */
-  /* font-weight: 700; */
-  min-width: 477px;
+  max-width: 477px;
+  width: 100%;
   margin: 0 auto;
   /* margin-top: 90px; */
 }
@@ -93,6 +90,9 @@ button {
   font-weight: 700;
   font-size: 42px;
   margin-bottom: 0;
+}
+.login-wrapper .card .card-body {
+  padding: 35px;
 }
 .login-wrapper .card-group .card .text-head span {
   color: #fcbb55;
@@ -123,8 +123,8 @@ button {
   font-weight: 700;
   font-size: 15px;
 }
-.submit-button:hover{
-  background-color:#f0a836 ;
+.submit-button:hover {
+  background-color: #f0a836;
 }
 .forgot {
   font-family: "Poppins";
@@ -140,13 +140,18 @@ button {
   color: #4299e1;
   text-decoration: none;
 }
-.form-group{
+.form-group {
   position: relative;
 }
-.eye-icon{
+.eye-icon {
   position: absolute;
   bottom: 15px;
   right: 15px;
   cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+  .login-wrapper .login-carousal {
+    display: none;
+  }
+}

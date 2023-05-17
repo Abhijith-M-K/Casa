@@ -1,5 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import Bg from "../../img/login.png";
+import "./loginCaurosel.css";
 
 function LoginCaurosel() {
   return (
